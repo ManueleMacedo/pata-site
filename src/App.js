@@ -1,23 +1,31 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+      <header className="header">
+        <img src="imagens/logo pref.png" alt="Logo" className="logo" />
+        <input type="text" placeholder="Pesquise aqui!" className="search" />
+        <button className="login-button">Entrar</button>
       </header>
+
+      <main className="main-content">
+        <h2>Cuide do seu pet com carinho e segurança! Agende uma consulta agora mesmo.</h2>
+        <img className="img-principal"  src="imagens/HVR imagem.webp" alt=""/>
+        <button className="agendar-button">Agende uma consulta.</button>
+      </main>
+      <footer className="footer">
+        <nav>
+          <a href="#">Início</a> | 
+          <a href="#">Agendamento</a> | 
+          <a href="#">Emergência</a> | 
+          <a href="#">Veterinários</a> | 
+          <a href="#">Transparência</a> | 
+          <a href="#">EducaPet</a> | 
+          <a href="#">Contato</a>
+        </nav>
+      </footer>
     </div>
   );
 }
