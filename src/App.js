@@ -1,32 +1,21 @@
 import React from "react";
-import "./App.css";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import "./App.css"
+
+import Telainicial from "./pages/telainicial";
+import TelaLogin from "./pages/telalogin";
+import TelaEsqueciSenha from "./pages/telaesquecisenha"; 
 
 function App() {
   return (
-    <div className="App">
-      <header className="header">
-        <img src="imagens/logo pref.png" alt="Logo" className="logo" />
-        <input type="text" placeholder="Pesquise aqui!" className="search" />
-        <button className="login-button">Entrar</button>
-      </header>
-
-      <main className="main-content">
-        <h2>Cuide do seu pet com carinho e segurança! Agende uma consulta agora mesmo.</h2>
-        <img className="img-principal"  src="imagens/HVR imagem.webp" alt=""/>
-        <button className="agendar-button">Agende uma consulta.</button>
-      </main>
-      <footer className="footer">
-        <nav>
-          <a href="#">Início</a> | 
-          <a href="#">Agendamento</a> | 
-          <a href="#">Emergência</a> | 
-          <a href="#">Veterinários</a> | 
-          <a href="#">Transparência</a> | 
-          <a href="#">EducaPet</a> | 
-          <a href="#">Contato</a>
-        </nav>
-      </footer>
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/" element={<Telainicial />} />
+        <Route path="/login" element={<TelaLogin />} />
+        <Route path="/esqueci-senha" element={<TelaEsqueciSenha />} />
+        {/* Aqui você adiciona outras rotas depois */}
+      </Routes>
+    </Router>
   );
 }
 
