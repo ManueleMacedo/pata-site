@@ -5,7 +5,7 @@ body {
 }
 
 .header {
-  background-color: #1b7b8e;
+  background-color: #2C7DA0;
   padding: 10px 20px;
   display: flex;
   align-items: center;
@@ -63,7 +63,7 @@ body {
 }
 
 .footer {
-  background-color: #1b7b8e;
+  background-color: #2C7DA0;
   color: white;
   padding: 10px 0;
   text-align: center;
