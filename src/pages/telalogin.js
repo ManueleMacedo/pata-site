@@ -13,7 +13,9 @@ function TelaLogin() {
 
         <div className="login-box">
           <img src="imagens/logo pref.png" alt="Prefeitura do Recife" className="logo-login" />
-          <h2>Faça login em sua conta ou <a href="#">cadastre-se</a></h2>
+          <h2>
+              Faça login em sua conta ou <Link to="/cadastro">cadastre-se</Link>
+          </h2>
           <input type="email" placeholder="Email" />
           <input type="password" placeholder="Senha" />
           <button>Entrar</button>

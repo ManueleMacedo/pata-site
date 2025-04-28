@@ -334,3 +334,83 @@ body {
     grid-template-columns: 1fr 1fr;
   }
 }
+
+.tela-cadastro {
+  background-color: #2C7DA0;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.cadastro-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.cadastro-box {
+  background-color: #ffffff;
+  padding: 40px 30px;
+  border-radius: 20px;
+  text-align: center;
+  width: 100%;
+  max-width: 900px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+}
+
+.logo-cadastro {
+  width: 120px;
+  margin-bottom: 20px;
+}
+
+.formularios {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.dados-pessoais,
+.dados-animal {
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+}
+
+.dados-pessoais h3,
+.dados-animal h3 {
+  margin-bottom: 10px;
+  font-size: 18px;
+  color: #333;
+  text-align: left;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  margin-bottom: 10px;
+  padding: 12px 15px;
+  border: 1px solid #cccccc00;
+  border-radius: 9px;
+  background-color: #e8e8e8;
+  font-size: 14px;
+}
+
+.botao-cadastrar {
+  background-color: #2C7DA0;
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 12px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.botao-cadastrar:hover {
+  background-color: #256b8d;
+}
