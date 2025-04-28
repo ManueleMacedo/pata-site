@@ -3,7 +3,6 @@ body {
   font-family: Arial, sans-serif;
   background-color: #f5f5f5;
 }
-
 .header {
   background-color: #2C7DA0;
   padding: 10px 20px;
@@ -182,4 +181,156 @@ body {
 .voltar-link:hover {
   background-color: white;
   color: #2C7DA0;
+}
+.tela-login-agendamento {
+  background-color: #2C7DA0;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.login-box-agendamento {
+  background-color: #ffffff;
+  padding: 40px 30px;
+  border-radius: 20px;
+  text-align: center;
+  width: 100%;
+  max-width: 600px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+}
+
+.logo-agendamento {
+  width: 120px;
+  margin-bottom: 20px;
+}
+
+.login-box-agendamento h2 {
+  font-size: 22px;
+  color: #333333;
+  margin-bottom: 20px;
+}
+
+.perfil-medico-agendamento {
+  margin-bottom: 20px;
+}
+
+.foto-medico-agendamento {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.agendamento-titulo {
+  font-size: 18px;
+  color: #333333;
+}
+
+.agendamento-subtitulo {
+  font-size: 14px;
+  color: #666666;
+}
+
+.selecao-horarios-agendamento {
+  margin-bottom: 20px;
+}
+
+.selecao-horarios-agendamento h4 {
+  font-size: 16px;
+  color: #333333;
+  margin-bottom: 10px;
+}
+
+.data-horarios-agendamento {
+  margin-bottom: 20px;
+}
+
+.horarios-grid-agendamento {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.horario-agendamento {
+  background-color: #e8e8e8;
+  border: 1px solid #cccccc;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.horario-agendamento:hover {
+  background-color: #c7c7c7;
+}
+
+.selecionado {
+  background-color: #4caf50;
+  color: white;
+  border-color: #4caf50;
+}
+
+.mais-horarios-agendamento {
+  background-color: transparent;
+  border: 1px solid #4caf50;
+  color: #4caf50;
+  border-radius: 10px;
+  padding: 8px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.mais-horarios-agendamento:hover {
+  background-color: #4caf50;
+  color: white;
+}
+
+.btn-finalizar-agendamento {
+  margin-top: 20px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.btn-finalizar-agendamento:hover {
+  background-color: #45a049;
+}
+
+.link-cancelar-agendamento {
+  color: #2C7DA0;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.link-cancelar-agendamento:hover {
+  text-decoration: underline;
+}
+
+.agendar-button-agendamento {
+  background-color: #2C7DA0;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.agendar-button-agendamento:hover {
+  background-color: #256b8d;
+}
+
+@media (max-width: 768px) {
+  .horarios-grid-agendamento {
+    grid-template-columns: 1fr 1fr;
+  }
 }
