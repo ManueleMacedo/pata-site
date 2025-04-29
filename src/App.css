@@ -414,3 +414,15 @@ input[type="password"] {
 .botao-cadastrar:hover {
   background-color: #256b8d;
 }
+
+.link-cancelar {
+  display: block;
+  margin-top: 10px;
+  color: #2C7DA0;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+}
+.link-cancelar:hover {
+  text-decoration: underline;
+}

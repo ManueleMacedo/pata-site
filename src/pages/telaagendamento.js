@@ -95,7 +95,7 @@ function TelaAgendamento() {
         </button>
 
         <div style={{ marginTop: "20px" }}>
-          <Link to="/login" className="link-cancelar-agendamento">Cancelar</Link>
+          <Link to="/" className="link-cancelar-agendamento">Cancelar</Link>
         </div>
 
         <div style={{ marginTop: "10px" }}>

@@ -4,12 +4,7 @@ import { Link } from "react-router-dom";
 function TelaCadastro() {
   return (
     <div className="tela-cadastro">
-
       <div className="registro-container">
-
-        <Link to="/" className="voltar-link">
-          ← Voltar para Início
-        </Link>
 
         <div className="cadastro-box">
           <img src="imagens/logo pref.png" alt="Prefeitura do Recife" className="logo-cadastro" />
@@ -35,10 +30,12 @@ function TelaCadastro() {
           </div>
 
           <button className="botao-cadastrar">Cadastrar</button>
+
+          <Link to="/" className="link-cancelar">Cancelar</Link>
+
         </div>
 
       </div>
-
     </div>
   );
 }
