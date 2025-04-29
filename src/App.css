@@ -426,3 +426,71 @@ input[type="password"] {
 .link-cancelar:hover {
   text-decoration: underline;
 }
+
+.card-consultas {
+  background-color: white;
+  padding: 80px;
+  border-radius: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  max-width: 700px;
+  margin: 30px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.logo-consultas {
+  max-width: 120px;
+  margin-bottom: 15px;
+}
+
+.titulo-consultas {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.botoes-exames,
+.botoes-consultas {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin-bottom: 24px;
+}
+
+.botao-exame,
+.botao-consulta {
+  background-color: #023e8a;
+  color: white;
+  padding: 10px 18px;
+  border: none;
+  border-radius: 10px;
+  font-size: 1rem;
+  cursor: pointer;
+  min-width: 180px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s;
+}
+
+.botao-exame:hover,
+.botao-consulta:hover {
+  background-color: #00b4d8;
+}
+
+html, body, #root, .App {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}

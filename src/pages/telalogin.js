@@ -18,7 +18,9 @@ function TelaLogin() {
           </h2>
           <input type="email" placeholder="Email" />
           <input type="password" placeholder="Senha" />
-          <button>Entrar</button>
+          <Link to="/tela-consulta">
+                    <button className="agendar-button">Entrar</button>
+                  </Link> 
           <div className="forgot-password">
             <Link to="/esqueci-senha">Esqueceu a senha?</Link>
           </div>
