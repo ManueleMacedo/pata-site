@@ -25,6 +25,13 @@ Ao declarar o nível de emergência no portal, o tutor garante mais agilidade no
 
 ---
 
+## 🚀 Deploy do Projeto
+
+O site já está disponível publicamente e pode ser acessado pelo link abaixo:
+
+🔗 [Clique aqui para acessar o site](https://pata-site.vercel.app/)
+
+---
 ## 🛠 Tecnologias Utilizadas:
 
 <div style="display: inline_block">
@@ -63,6 +70,14 @@ O seguinte diagrama ilustra o fluxo das principais ações do usuário:
 
 ---
 
+## 🐞 Issue / Bug Tracker
+
+Estamos utilizando o sistema de *Issues* do GitHub para controle de bugs e tarefas.  
+Abaixo, segue um print das issues já resolvidas:
+
+![Captura de tela 2025-04-30 191808](https://github.com/user-attachments/assets/dd9d5be2-818d-4455-91d8-ccea5a53dd12)
+
+
 ## 👨‍💻 Desenvolvedores do Projeto:
 
 <a href="https://github.com/dayvidcristiano">
@@ -90,14 +105,20 @@ Desenvolvido por:
 
 ### 📌 Trello:
 
-![image](https://github.com/user-attachments/assets/ed2f3664-f720-41e2-a71c-309fe86a33f9)
-
+![Captura de tela 2025-04-30 192240](https://github.com/user-attachments/assets/dffde8b7-2a0f-4d62-87af-6c221232f6c1)
 
 ---
 
 ## 🎥 Screencast do Protótipo:
 
-https://github.com/user-attachments/assets/7a71d794-f9ff-4636-94c9-7f59fdba642e
+Gravamos um screencast demonstrando as principais funcionalidades do sistema.  
+Abaixo, listamos a minutagem correspondente a cada história de usuário:
+
+- **HU1 - Cadastro de usuário** → `00:09`
+- **HU2 - Login e recuperação de senha** → `00:30`
+- **HU3 - Agendamento de consulta** → `00:49`
+
+https://github.com/user-attachments/assets/e8041df4-3933-4760-bd4e-7264a42644e2
 
 ---
 
