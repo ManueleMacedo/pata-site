@@ -32,15 +32,17 @@ function TelaCadastro() {
           
 
           <button className="botao-cadastrar">Cadastrar</button>
-          <div className="forgot-password">
-                    <Link to="/login">Voltar</Link>
+          <div className="link-voltar-login">
+              <Link to="/login">Voltar</Link>
+          </div>
+
                   
 
         </div>
         
         </div>
       </div>
-    </div>
+    
   );
 }
 

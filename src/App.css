@@ -553,3 +553,16 @@ body,
   z-index: 2;
 }
 
+.link-voltar-login {
+  margin-top: 20px;
+  text-align: center;
+  color: #1976a0;
+
+
+}
+.link-voltar-login a {
+  color: #1976a0;
+  text-decoration: none;
+}
+
+
