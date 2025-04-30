@@ -3,6 +3,7 @@ body {
   font-family: Arial, sans-serif;
   background-color: #f5f5f5;
 }
+
 .header {
   background-color: #2C7DA0;
   padding: 10px 20px;
@@ -77,6 +78,7 @@ body {
 .footer a:hover {
   text-decoration: underline;
 }
+
 .tela-login {
   background-color: #2C7DA0;
   min-height: 100vh;
@@ -165,8 +167,8 @@ body {
 
 .voltar-link {
   position: absolute;
-  top: -50px; 
-  left: 20px; 
+  top: -50px;
+  left: 20px;
   color: white;
   text-decoration: none;
   font-size: 16px;
@@ -182,315 +184,172 @@ body {
   background-color: white;
   color: #2C7DA0;
 }
-.tela-login-agendamento {
-  background-color: #2C7DA0;
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 20px;
+
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
 }
 
-.login-box-agendamento {
-  background-color: #ffffff;
-  padding: 40px 30px;
-  border-radius: 20px;
-  text-align: center;
+.tela-agendamento-sem-caixa {
+  min-height: 100vh;
+  background: linear-gradient(to right, #fefefe);
+  padding: 40px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  font-family: Arial, sans-serif;
+}
+
+.container-agendamento {
+  display: flex;
   width: 100%;
-  max-width: 600px;
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+  max-width: 1100px;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.lado-esquerdo-agendamento {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.lado-direito-agendamento {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
 }
 
 .logo-agendamento {
-  width: 120px;
-  margin-bottom: 20px;
-}
-
-.login-box-agendamento h2 {
-  font-size: 22px;
-  color: #333333;
+  width: 140px;
   margin-bottom: 20px;
 }
 
 .perfil-medico-agendamento {
-  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .foto-medico-agendamento {
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
+  width: 140px;
+  height: 140px;
   object-fit: cover;
-  margin-bottom: 10px;
+  border-radius: 50%;
+  border: 3px solid #ccc;
+  margin-bottom: 15px;
 }
 
 .agendamento-titulo {
-  font-size: 18px;
-  color: #333333;
+  font-size: 22px;
+  font-weight: bold;
+  margin: 5px 0;
 }
 
 .agendamento-subtitulo {
-  font-size: 14px;
-  color: #666666;
-}
-
-.selecao-horarios-agendamento {
-  margin-bottom: 20px;
-}
-
-.selecao-horarios-agendamento h4 {
   font-size: 16px;
-  color: #333333;
-  margin-bottom: 10px;
+  color: #444;
 }
 
 .data-horarios-agendamento {
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 .horarios-grid-agendamento {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  display: flex;
+  flex-wrap: wrap;
   gap: 10px;
   margin-top: 10px;
 }
 
 .horario-agendamento {
-  background-color: #e8e8e8;
-  border: 1px solid #cccccc;
-  border-radius: 10px;
-  padding: 10px;
-  font-size: 14px;
+  padding: 10px 16px;
+  border: 1px solid #aaa;
+  border-radius: 6px;
+  background-color: #f5f5f5;
   cursor: pointer;
-  transition: background-color 0.3s;
+  transition: background-color 0.3s ease;
 }
 
 .horario-agendamento:hover {
-  background-color: #c7c7c7;
+  background-color: #e0e0e0;
 }
 
-.selecionado {
+.horario-agendamento.selecionado {
   background-color: #4caf50;
-  color: white;
+  color: #fff;
   border-color: #4caf50;
 }
 
+.dia-inativo {
+  color: #999;
+  font-style: italic;
+  margin-top: 8px;
+}
+
 .mais-horarios-agendamento {
-  background-color: transparent;
-  border: 1px solid #4caf50;
-  color: #4caf50;
-  border-radius: 10px;
-  padding: 8px;
+  padding: 10px 16px;
+  background-color: #1976d2;
+  color: white;
+  border: none;
+  border-radius: 6px;
   cursor: pointer;
-  font-size: 14px;
+  transition: background-color 0.3s ease;
 }
 
 .mais-horarios-agendamento:hover {
-  background-color: #4caf50;
-  color: white;
+  background-color: #155fa0;
+}
+
+.botoes-agendamento-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.botoes-agendamento-container>* {
+  flex: 1;
+  min-width: 120px;
+  padding: 12px;
+  font-size: 14px;
+  text-align: center;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
 }
 
 .btn-finalizar-agendamento {
-  margin-top: 20px;
-  background-color: #4caf50;
+  background-color: #28a745;
   color: white;
-  border: none;
-  padding: 12px 24px;
-  border-radius: 20px;
-  font-size: 16px;
-  cursor: pointer;
 }
 
 .btn-finalizar-agendamento:hover {
-  background-color: #45a049;
+  background-color: #218838;
 }
 
-.link-cancelar-agendamento {
-  color: #2C7DA0;
-  text-decoration: none;
-  font-size: 14px;
-}
-
-.link-cancelar-agendamento:hover {
-  text-decoration: underline;
-}
-
-.agendar-button-agendamento {
-  background-color: #2C7DA0;
+.botao-cancelar-agendamento {
+  background-color: #dc3545;
   color: white;
-  border: none;
-  padding: 12px 24px;
-  border-radius: 20px;
-  font-size: 16px;
-  cursor: pointer;
+  text-decoration: none;
+  line-height: 1.5;
 }
 
-.agendar-button-agendamento:hover {
-  background-color: #256b8d;
+.botao-cancelar-agendamento:hover {
+  background-color: #bd2130;
 }
 
 @media (max-width: 768px) {
-  .horarios-grid-agendamento {
-    grid-template-columns: 1fr 1fr;
+  .container-agendamento {
+    flex-direction: column;
   }
-}
 
-.tela-cadastro {
-  background-color: #2C7DA0;
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 20px;
-}
-
-.cadastro-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  position: relative;
-}
-
-.cadastro-box {
-  background-color: #ffffff;
-  padding: 40px 30px;
-  border-radius: 20px;
-  text-align: center;
-  width: 100%;
-  max-width: 900px;
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
-}
-
-.logo-cadastro {
-  width: 120px;
-  margin-bottom: 20px;
-}
-
-.formularios {
-  display: flex;
-  justify-content: space-between;
-  width: 100%;
-  margin-bottom: 20px;
-}
-
-.dados-pessoais,
-.dados-animal {
-  display: flex;
-  flex-direction: column;
-  width: 45%;
-}
-
-.dados-pessoais h3,
-.dados-animal h3 {
-  margin-bottom: 10px;
-  font-size: 18px;
-  color: #333;
-  text-align: left;
-}
-
-input[type="text"],
-input[type="email"],
-input[type="password"] {
-  margin-bottom: 10px;
-  padding: 12px 15px;
-  border: 1px solid #cccccc00;
-  border-radius: 9px;
-  background-color: #e8e8e8;
-  font-size: 14px;
-}
-
-.botao-cadastrar {
-  background-color: #2C7DA0;
-  color: white;
-  padding: 12px 24px;
-  border: none;
-  border-radius: 12px;
-  font-size: 16px;
-  font-weight: bold;
-  cursor: pointer;
-  transition: background-color 0.3s;
-}
-
-.botao-cadastrar:hover {
-  background-color: #256b8d;
-}
-
-.link-cancelar {
-  display: block;
-  margin-top: 10px;
-  color: #2C7DA0;
-  text-decoration: none;
-  font-size: 16px;
-  font-weight: 500;
-}
-.link-cancelar:hover {
-  text-decoration: underline;
-}
-
-.card-consultas {
-  background-color: white;
-  padding: 80px;
-  border-radius: 20px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-  text-align: center;
-  max-width: 700px;
-  margin: 30px auto;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-
-.logo-consultas {
-  max-width: 120px;
-  margin-bottom: 15px;
-}
-
-.titulo-consultas {
-  font-size: 1.5rem;
-  font-weight: bold;
-  color: #333;
-}
-
-.botoes-exames,
-.botoes-consultas {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 16px;
-  margin-bottom: 24px;
-}
-
-.botao-exame,
-.botao-consulta {
-  background-color: #023e8a;
-  color: white;
-  padding: 10px 18px;
-  border: none;
-  border-radius: 10px;
-  font-size: 1rem;
-  cursor: pointer;
-  min-width: 180px;
-  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
-  transition: background-color 0.3s;
-}
-
-.botao-exame:hover,
-.botao-consulta:hover {
-  background-color: #00b4d8;
-}
-
-html, body, #root, .App {
-  height: 100%;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  flex-direction: column;
-}
-
-.main-content {
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  .lado-esquerdo-agendamento,
+  .lado-direito-agendamento {
+    width: 100%;
+  }
 }
