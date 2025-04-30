@@ -45,24 +45,23 @@ Ao declarar o nível de emergência no portal, o tutor garante mais agilidade no
 
 ---
 
-## 📥 Como Instalar
+## 👥 Programação em Par
 
-1. Clone o repositório:
-   ```bash
-   git clone https://github.com/ManueleMacedo/pata-site.git
-   ```
-2. Acesse a pasta do projeto:
-   ```bash
-   cd pata-site
-   ```
-3. Instale as dependências:
-   ```bash
-   npm i
-   ```
-4. Inicie o servidor:
-   ```bash
-   npm start
-   ```
+A codificação desta parte inicial do projeto foi feita em pares, com cada integrante trabalhando de sua própria casa. Organizamos tudo e alinhamos as tarefas em reuniões online.
+
+Como todos do grupo ainda estão começando a aprender React, foi um desafio no início — houve muitas dúvidas, pesquisas e tentativa e erro. No entanto, essa troca constante de ideias ajudou bastante no aprendizado e deixou o processo mais leve.
+
+Utilizamos ferramentas de comunicação para manter o contato e resolver as dificuldades em tempo real. Mesmo com a distância e a curva de aprendizado, conseguimos colaborar bem e mostrar que o trabalho em equipe funciona, mesmo de forma remota.
+
+---
+
+## 🖼️ Diagrama de Atividades
+
+O seguinte diagrama ilustra o fluxo das principais ações do usuário:
+
+![Diagrama de Atividades](public/imagens/Diagrama%20PATA.drawio.png)
+
+---
 
 ## 👨‍💻 Desenvolvedores do Projeto:
 
