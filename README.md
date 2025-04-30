@@ -90,7 +90,8 @@ Desenvolvido por:
 
 ### 📌 Trello:
 
-![image](https://github.com/user-attachments/assets/eb6e41d7-c327-40bc-b696-5cb2f9b5b76d)
+![image](https://github.com/user-attachments/assets/ed2f3664-f720-41e2-a71c-309fe86a33f9)
+
 
 ---
 
