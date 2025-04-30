@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/pata-site/static/css/main.736bdb22.css",
+    "main.js": "/pata-site/static/js/main.15c403f4.js",
+    "static/js/453.6a903ddf.chunk.js": "/pata-site/static/js/453.6a903ddf.chunk.js",
+    "index.html": "/pata-site/index.html",
+    "main.736bdb22.css.map": "/pata-site/static/css/main.736bdb22.css.map",
+    "main.15c403f4.js.map": "/pata-site/static/js/main.15c403f4.js.map",
+    "453.6a903ddf.chunk.js.map": "/pata-site/static/js/453.6a903ddf.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.736bdb22.css",
+    "static/js/main.15c403f4.js"
+  ]
+}
