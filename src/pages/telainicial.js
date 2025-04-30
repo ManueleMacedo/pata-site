@@ -16,15 +16,15 @@ function TelaInicial() {
       <main className="main-content">
         <h2>Cuide do seu pet com carinho e segurança! Agende uma consulta agora mesmo.</h2>
         <img className="img-principal" src="imagens/HVR imagem.webp" alt="" />
-        <Link to="/agendamento-consulta">
+        <Link to="">
           <button className="agendar-button">Agende uma consulta</button>
-        </Link>       
-        </main>
+        </Link>
+      </main>
 
       <footer className="footer">
         <nav>
           <a href="#">Início</a> |
-          <a href="#">Agendamento</a> |
+          <a href="/agendamento-consulta">Agendamento</a> |
           <a href="#">Emergência</a> |
           <a href="#">Veterinários</a> |
           <a href="#">Transparência</a> |

@@ -31,8 +31,6 @@ function TelaCadastro() {
 
           <button className="botao-cadastrar">Cadastrar</button>
 
-          <Link to="/" className="link-cancelar">Cancelar</Link>
-
         </div>
 
       </div>

@@ -49,7 +49,7 @@ export default function TelaAgendamento() {
         <div className="lado-esquerdo-agendamento">
           <img src="imagens/logo pref.png" alt="Logo" className="logo-agendamento" />
           <div className="perfil-medico-agendamento">
-            <img src="imagens/dr.avif" alt="Médica" className="foto-medico-agendamento" />
+            <img src="imagens/dr.jpg" alt="Médica" className="foto-medico-agendamento" />
             <h3 className="agendamento-titulo">Dra. Carla Andrade</h3>
             <p className="agendamento-subtitulo">
               Agenda: Dra. Carla (<Link to="#">alterar</Link>)
@@ -118,9 +118,6 @@ export default function TelaAgendamento() {
             <button className="btn-finalizar-agendamento" onClick={finalizarAgendamento}>
               Finalizar
             </button>
-            <Link to="/" className="botao-cancelar-agendamento">
-              Cancelar
-            </Link>
           </div>
         </div>
       </div>
