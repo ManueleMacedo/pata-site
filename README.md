@@ -60,6 +60,10 @@ Como todos do grupo ainda estão começando a aprender React, foi um desafio no 
 
 Utilizamos ferramentas de comunicação para manter o contato e resolver as dificuldades em tempo real. Mesmo com a distância e a curva de aprendizado, conseguimos colaborar bem e mostrar que o trabalho em equipe funciona, mesmo de forma remota.
 
+![image](https://github.com/user-attachments/assets/061a3a54-8c78-42db-9c12-8c21d8813ea8)
+![Screenshot_20250430_203037_Discord](https://github.com/user-attachments/assets/6b705203-c0fe-4fd9-b609-464a52a42f27)
+![Screenshot_20250430_203110_Discord](https://github.com/user-attachments/assets/95529717-b5f2-478b-b52d-fdeaa43d6b50)
+
 ---
 
 ## 🖼️ Diagrama de Atividades
