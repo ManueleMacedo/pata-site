@@ -11,16 +11,16 @@ import TelaConsultasExames from "./pages/telaconsultas";
 
 function App() {
   return (
-    <Router basename="/pata-site">
-      <Routes>
-        <Route path="/" element={<Telainicial />} />
-        <Route path="/login" element={<TelaLogin />} />
-        <Route path="/cadastro" element={<TelaCadastro />} />
-        <Route path="/esqueci-senha" element={<TelaEsqueciSenha />} />
-        <Route path="/agendamento-consulta" element={<TelaAgendamento />} />
-        <Route path="/tela-consulta" element={<TelaConsultasExames />} />
-      </Routes>
-    </Router>
+    <Router>
+  <Routes>
+    <Route path="/" element={<Telainicial />} />
+    <Route path="/login" element={<TelaLogin />} />
+    <Route path="/cadastro" element={<TelaCadastro />} />
+    <Route path="/esqueci-senha" element={<TelaEsqueciSenha />} />
+    <Route path="/agendamento-consulta" element={<TelaAgendamento />} />
+    <Route path="/tela-consulta" element={<TelaConsultasExames />} />
+  </Routes>
+</Router>
   );
 }
 
