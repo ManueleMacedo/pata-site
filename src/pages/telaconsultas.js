@@ -23,10 +23,16 @@ function TelaConsultasExames() {
           </div>
 
           <div className="botoes-consultas">
-            <button className="botao-consulta">Marcar Consulta</button>
+          <Link to="/agendamento-consulta">
+                      <button className="botao-consulta">Marcar consulta</button>
+                    </Link>
             <button className="botao-consulta">Desmarcar Consulta</button>
           </div>
         </div>
+        <div className="imagem-animais">
+           <img src="imagem-animais.jpg" alt="Animais" className="img-animais" />
+        </div>
+
       </main>
 
       <footer className="footer">
