@@ -25,7 +25,7 @@ function TelaInicial() {
       <footer className="footer">
         <nav>
           <a href="#">Início</a> |
-          <a href="/agendamento-consulta">Agendamento</a> |
+          <a href="#">Agendamento</a> |
           <a href="#">Emergência</a> |
           <a href="#">Veterinários</a> |
           <a href="#">Transparência</a> |
