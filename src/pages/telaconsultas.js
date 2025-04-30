@@ -30,9 +30,8 @@ function TelaConsultasExames() {
           </div>
         </div>
         <div className="imagem-animais">
-           <img src="imagem-animais.jpg" alt="Animais" className="img-animais" />
+           <img src="\imagens\imagem-animais.png" alt="Animais" className="img-animais" />
         </div>
-
       </main>
 
       <footer className="footer">

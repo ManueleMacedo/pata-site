@@ -14,12 +14,13 @@ function TelaInicial() {
       </header>
 
       <main className="main-content">
-        <h2>Cuide do seu pet com carinho e segurança! Agende uma consulta agora mesmo.</h2>
+      <h2>Cuide do seu pet com carinho e segurança! Agende uma consulta agora mesmo.</h2>
+      <div className="imagem-container">
         <img className="img-principal" src="imagens/HVR imagem.webp" alt="" />
-        <Link to="">
-          <button className="agendar-button">Agende uma consulta</button>
-        </Link>
+        <div className="agendar-button ilustrativo">Agende uma consulta</div>
+      </div>
       </main>
+
 
       <footer className="footer">
         <nav>

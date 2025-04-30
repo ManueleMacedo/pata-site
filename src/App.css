@@ -51,15 +51,26 @@ body {
   margin: 0 auto;
 }
 
-.agendar-button {
-  margin-top: 20px;
-  background-color: #4caf50;
+.imagem-container {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+}
+
+.agendar-button.ilustrativo {
+  position: absolute;
+  bottom: -30px; 
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #4CAF50;
   color: white;
-  border: none;
-  padding: 12px 24px;
-  border-radius: 20px;
-  font-size: 16px;
-  cursor: pointer;
+  padding: 8px 16px;
+  border-radius: 8px;
+  font-weight: bold;
+  pointer-events: none;
+  cursor: default;
+  white-space: nowrap;
 }
 
 .footer {
@@ -528,12 +539,17 @@ body,
 }
 
 .img-animais {
-  width: 280px;
-  margin-top: 30px;
+  width: 450px;
+  display: block;
+  margin: 0 auto;
 }
 
 .imagem-animais {
   display: flex;
   justify-content: center;
+  margin-right: 200px;
+  position: absolute;
+  bottom: -75px; 
+  z-index: 2;
 }
 
