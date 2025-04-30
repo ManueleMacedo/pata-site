@@ -11,7 +11,7 @@ import TelaConsultasExames from "./pages/telaconsultas";
 
 function App() {
   return (
-    <Router>
+    <Router basename="/pata-site">
       <Routes>
         <Route path="/" element={<Telainicial />} />
         <Route path="/login" element={<TelaLogin />} />
@@ -21,7 +21,7 @@ function App() {
         <Route path="/tela-consulta" element={<TelaConsultasExames />} />
       </Routes>
     </Router>
-  );
+  );
 }
 
 export default App;

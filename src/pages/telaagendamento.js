@@ -47,9 +47,17 @@ export default function TelaAgendamento() {
     <div className="tela-agendamento-sem-caixa">
       <div className="container-agendamento">
         <div className="lado-esquerdo-agendamento">
-          <img src="imagens/logo pref.png" alt="Logo" className="logo-agendamento" />
+          <img 
+            src={`${process.env.PUBLIC_URL}/imagens/logo-pref.png`} 
+            alt="Logo" 
+            className="logo-agendamento" 
+          />
           <div className="perfil-medico-agendamento">
-            <img src="imagens/dr.avif" alt="Médica" className="foto-medico-agendamento" />
+            <img 
+              src={`${process.env.PUBLIC_URL}/imagens/dr.avif`} 
+              alt="Médica" 
+              className="foto-medico-agendamento" 
+            />
             <h3 className="agendamento-titulo">Dra. Carla Andrade</h3>
             <p className="agendamento-subtitulo">
               Agenda: Dra. Carla (<Link to="#">alterar</Link>)
@@ -119,9 +127,8 @@ export default function TelaAgendamento() {
               Finalizar
             </button>
             <button className="btn-finalizar-agendamento">
-               <Link to="/tela-consulta" className="link-botao-voltar">Voltar</Link>
+              <Link to="/tela-consulta" className="link-botao-voltar">Voltar</Link>
             </button>
-
           </div>
         </div>
       </div>

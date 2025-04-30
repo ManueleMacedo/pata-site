@@ -5,7 +5,11 @@ function TelaConsultasExames() {
   return (
     <div className="App">
       <header className="header">
-        <img src="imagens/logo pref.png" alt="Logo" className="logo" />
+        <img 
+          src={`${process.env.PUBLIC_URL}/imagens/logo-pref.png`} 
+          alt="Logo" 
+          className="logo" 
+        />
         <input type="text" placeholder="Pesquise aqui!" className="search" />
         <Link to="/">
           <button className="login-button">Voltar</button>
@@ -23,14 +27,18 @@ function TelaConsultasExames() {
           </div>
 
           <div className="botoes-consultas">
-          <Link to="/agendamento-consulta">
-                      <button className="botao-consulta">Marcar consulta</button>
-                    </Link>
+            <Link to="/agendamento-consulta">
+              <button className="botao-consulta">Marcar consulta</button>
+            </Link>
             <button className="botao-consulta">Desmarcar Consulta</button>
           </div>
         </div>
         <div className="imagem-animais">
-           <img src="/imagens/imagem-animais.png" alt="Animais" className="img-animais" />
+          <img 
+            src={`${process.env.PUBLIC_URL}/imagens/imagem-animais.png`} 
+            alt="Animais" 
+            className="img-animais" 
+          />
         </div>
       </main>
 

@@ -5,7 +5,11 @@ function TelaEsqueciSenha() {
   return (
     <div className="tela-login">
       <div className="login-box">
-        <img src="imagens/logo pref.png" alt="Prefeitura do Recife" className="logo-login" />
+        <img 
+            src={`${process.env.PUBLIC_URL}/imagens/logo-pref.png`} 
+            alt="Prefeitura do Recife" 
+            className="logo-login" 
+          />
         <h2>Esqueci minha senha</h2>
         <p>Para redefinir sua senha, informe o email cadastrado na sua conta e lhe enviaremos um link com as instruções.</p>
         <input type="email" placeholder="Email" />

@@ -5,10 +5,12 @@ function TelaCadastro() {
   return (
     <div className="tela-cadastro">
       <div className="registro-container">
-        
-
         <div className="cadastro-box">
-          <img src="imagens/logo pref.png" alt="Prefeitura do Recife" className="logo-cadastro" />
+          <img 
+            src={`${process.env.PUBLIC_URL}/imagens/logo-pref.png`} 
+            alt="Prefeitura do Recife" 
+            className="logo-cadastro" 
+          />
 
           <div className="formularios">
             <div className="dados-pessoais">
@@ -29,20 +31,14 @@ function TelaCadastro() {
               <input type="text" placeholder="Informações médicas relevantes" />
             </div>
           </div>
-          
 
           <button className="botao-cadastrar">Cadastrar</button>
           <div className="link-voltar-login">
-              <Link to="/login">Voltar</Link>
+            <Link to="/login">Voltar</Link>
           </div>
-
-                  
-
-        </div>
-        
         </div>
       </div>
-    
+    </div>
   );
 }
 
