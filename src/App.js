@@ -5,7 +5,7 @@ import "./App.css";
 import Telainicial from "./pages/telainicial";
 import TelaLogin from "./pages/telalogin";
 import TelaEsqueciSenha from "./pages/telaesquecisenha";
-import TelaAgendamento from "./pages/telaagendamento"; // <-- Corrigi aqui
+import TelaAgendamento from "./pages/telaagendamento";
 import TelaCadastro from "./pages/telacadastro";
 import TelaConsultasExames from "./pages/telaconsultas";
 import TelaEmergencia from "./pages/telaemergencia";
@@ -13,7 +13,7 @@ import TelaEmergencia from "./pages/telaemergencia";
 
 function App() {
   return (
-    <Router basename="/pata-site">
+    <Router basename="/">
       <Routes>
         <Route path="/" element={<Telainicial />} />
         <Route path="/login" element={<TelaLogin />} />
@@ -21,6 +21,7 @@ function App() {
         <Route path="/esqueci-senha" element={<TelaEsqueciSenha />} />
         <Route path="/agendamento-consulta" element={<TelaAgendamento />} />
         <Route path="/tela-consulta" element={<TelaConsultasExames />} />
+        <Route path="/tela-emergencia" element={<TelaEmergencia />} />
       </Routes>
     </Router>
   );
