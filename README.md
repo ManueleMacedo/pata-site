@@ -25,6 +25,13 @@ Ao declarar o nível de emergência no portal, o tutor garante mais agilidade no
 
 ---
 
+## 🚀 Deploy do Projeto
+
+O site já está disponível publicamente e pode ser acessado pelo link abaixo:
+
+🔗 [Clique aqui para acessar o site](https://pata-site.vercel.app/)
+
+---
 ## 🛠 Tecnologias Utilizadas:
 
 <div style="display: inline_block">
@@ -53,6 +60,10 @@ Como todos do grupo ainda estão começando a aprender React, foi um desafio no 
 
 Utilizamos ferramentas de comunicação para manter o contato e resolver as dificuldades em tempo real. Mesmo com a distância e a curva de aprendizado, conseguimos colaborar bem e mostrar que o trabalho em equipe funciona, mesmo de forma remota.
 
+![image](https://github.com/user-attachments/assets/061a3a54-8c78-42db-9c12-8c21d8813ea8)
+![Screenshot_20250430_203037_Discord](https://github.com/user-attachments/assets/6b705203-c0fe-4fd9-b609-464a52a42f27)
+![Screenshot_20250430_203110_Discord](https://github.com/user-attachments/assets/95529717-b5f2-478b-b52d-fdeaa43d6b50)
+
 ---
 
 ## 🖼️ Diagrama de Atividades
@@ -62,6 +73,14 @@ O seguinte diagrama ilustra o fluxo das principais ações do usuário:
 ![Diagrama de Atividades](public/imagens/Diagrama%20PATA.drawio.png)
 
 ---
+
+## 🐞 Issue / Bug Tracker
+
+Estamos utilizando o sistema de *Issues* do GitHub para controle de bugs e tarefas.  
+Abaixo, segue um print das issues já resolvidas:
+
+![Captura de tela 2025-04-30 191808](https://github.com/user-attachments/assets/dd9d5be2-818d-4455-91d8-ccea5a53dd12)
+
 
 ## 👨‍💻 Desenvolvedores do Projeto:
 
@@ -90,13 +109,20 @@ Desenvolvido por:
 
 ### 📌 Trello:
 
-![image](https://github.com/user-attachments/assets/eb6e41d7-c327-40bc-b696-5cb2f9b5b76d)
+![Captura de tela 2025-04-30 192240](https://github.com/user-attachments/assets/dffde8b7-2a0f-4d62-87af-6c221232f6c1)
 
 ---
 
 ## 🎥 Screencast do Protótipo:
 
-https://github.com/user-attachments/assets/7a71d794-f9ff-4636-94c9-7f59fdba642e
+Gravamos um screencast demonstrando as principais funcionalidades do sistema.  
+Abaixo, listamos a minutagem correspondente a cada história de usuário:
+
+- **HU1 - Cadastro de usuário** → `00:09`
+- **HU2 - Login e recuperação de senha** → `00:30`
+- **HU3 - Agendamento de consulta** → `00:49`
+
+https://github.com/user-attachments/assets/e8041df4-3933-4760-bd4e-7264a42644e2
 
 ---
 

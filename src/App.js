@@ -21,7 +21,6 @@ function App() {
         <Route path="/esqueci-senha" element={<TelaEsqueciSenha />} />
         <Route path="/agendamento-consulta" element={<TelaAgendamento />} />
         <Route path="/tela-consulta" element={<TelaConsultasExames />} />
-        <Route path="/tela-emergencia" element={<TelaEmergencia />} />
       </Routes>
     </Router>
   );
