@@ -24,7 +24,7 @@ function TelaInicial() {
         <nav>
           <a href="#">Início</a> |
           <a href="#">Agendamento</a> |
-          <a href="#">Emergência</a> |
+          <Link to="/tela-emergencia">Emergência</Link> |
           <a href="#">Veterinários</a> |
           <a href="#">Transparência</a> |
           <a href="#">EducaPet</a> |

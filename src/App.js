@@ -8,6 +8,8 @@ import TelaEsqueciSenha from "./pages/telaesquecisenha";
 import TelaAgendamento from "./pages/telaagendamento"; // <-- Corrigi aqui
 import TelaCadastro from "./pages/telacadastro";
 import TelaConsultasExames from "./pages/telaconsultas";
+import TelaEmergencia from "./pages/telaemergencia";
+
 
 function App() {
   return (
@@ -19,6 +21,7 @@ function App() {
         <Route path="/esqueci-senha" element={<TelaEsqueciSenha />} />
         <Route path="/agendamento-consulta" element={<TelaAgendamento />} />
         <Route path="/tela-consulta" element={<TelaConsultasExames />} />
+        <Route path="/tela-emergencia" element={<TelaEmergencia />} />
       </Routes>
     </Router>
   );
