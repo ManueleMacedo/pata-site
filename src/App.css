@@ -564,8 +564,6 @@ body,
   color: #1976a0;
   text-decoration: none;
 }
-
-/* Estilos específicos para a tela de emergência */
 .card-emergencia {
   background-color: white;
   padding: 40px;
@@ -575,21 +573,17 @@ body,
   margin: 30px auto;
   text-align: left;
 }
-
 .titulo-emergencia {
   font-size: 2rem;
   color: #2C7DA0;
   margin-bottom: 30px;
   text-align: center;
 }
-
-/* Container para os tipos de emergência lado a lado */
 .tipos-container {
   display: flex;
   gap: 20px;
   margin-bottom: 30px;
 }
-
 .tipo-emergencia {
   flex: 1;
   padding: 20px;
@@ -597,47 +591,39 @@ body,
   background-color: #f9f9f9;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
 }
-
 .tipo-emergencia h2 {
   color: #2C7DA0;
   font-size: 1.3rem;
   margin-bottom: 15px;
   text-align: center;
 }
-
 .tipo-emergencia p {
   color: #555;
   margin-bottom: 15px;
   line-height: 1.5;
 }
-
 .tipo-emergencia ul {
   padding-left: 20px;
   color: #555;
 }
-
 .tipo-emergencia li {
   margin-bottom: 8px;
 }
-
 .selecionar-nivel {
   margin-top: 40px;
   text-align: center;
 }
-
 .selecionar-nivel h3 {
   color: #2C7DA0;
   margin-bottom: 20px;
   font-size: 1.2rem;
 }
-
 .niveis-container {
   display: flex;
   justify-content: center;
   gap: 20px;
   margin-bottom: 25px;
 }
-
 .nivel-btn {
   width: 50px;
   height: 50px;
@@ -653,18 +639,15 @@ body,
   align-items: center;
   justify-content: center;
 }
-
 .nivel-btn.selecionado {
   background-color: #2C7DA0;
   color: white;
   transform: scale(1.1);
 }
-
 .nivel-btn:hover {
   transform: scale(1.05);
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
 }
-
 .btn-enviar {
   background-color: #e74c3c;
   color: white;
@@ -677,23 +660,80 @@ body,
   transition: all 0.3s ease;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
 }
-
 .btn-enviar:hover {
   background-color: #c0392b;
   transform: translateY(-2px);
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
 }
-
 .tipos-container {
-  display: flex;          /* Ativa o layout flexível */
-  gap: 20px;             /* Espaço entre os cards */
-  margin-bottom: 30px;   /* Espaço abaixo do container */
+  display: flex;          
+  gap: 20px;             
+  margin-bottom: 30px;   
 }
-
 .tipo-emergencia {
-  flex: 1;               /* Cada card ocupa espaço igual */
+  flex: 1;               
   padding: 20px;
   border-radius: 10px;
-  background-color: #f9f9f9; /* Cor de fundo opcional */
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05); /* Sombra sutil */
+  background-color: #f9f9f9; 
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05); 
+}
+.educa-background {
+  max-width: 100%;
+  background-color: #c4d8f8
+}
+.educa-container {
+  padding: 40px 20px;
+  max-width: 800px;
+  margin: auto;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #c4d8f8;
+  color: #444;
+}
+
+.educa-container h1 {
+  text-align: center;
+  color: #2C7DA0;
+  font-size: 2.5em;
+  margin-bottom: 50px;
+  font-weight: bold;
+}
+
+.educa-section {
+  margin-bottom: 40px;
+  background: #ffffff;
+  padding: 25px 30px;
+  border-left: 6px solid #4CAF50;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  transition: transform 0.2s;
+}
+
+.educa-section:hover {
+  transform: translateY(-5px);
+}
+
+.educa-section h2 {
+  color: #2C7DA0;
+  font-size: 1.6em;
+  margin-bottom: 15px;
+}
+
+.educa-section ul {
+  padding-left: 20px;
+  list-style-type: '🐾 ';
+}
+
+.educa-section li {
+  margin-bottom: 10px;
+  line-height: 1.6;
+}
+
+@media (max-width: 600px) {
+  .educa-container {
+    padding: 20px 10px;
+  }
+
+  .educa-section {
+    padding: 20px;
+  }
 }
