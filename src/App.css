@@ -737,3 +737,84 @@ body,
     padding: 20px;
   }
 }
+
+.tela-agendamento-sem-caixa {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  background: #f5f9fa;
+  padding: 20px;
+}
+
+
+.container-agendamento {
+  display: flex;
+  max-width: 900px;
+  margin: 0 auto;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.lado-esquerdo-agendamento {
+  flex: 1;
+  padding: 30px;
+  border-right: 1px solid #ddd;
+}
+
+.logo-agendamento {
+  max-width: 150px;
+  margin-bottom: 40px;
+}
+
+.agendamento-titulo {
+  margin-bottom: 10px;
+}
+
+.nome-exame {
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.lado-direito-agendamento {
+  flex: 2;
+  padding: 30px;
+}
+
+.agendamento-subtitulo {
+  margin-bottom: 20px;
+  text-align: center;
+  color: #0077cc;
+}
+
+.lista-exames {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 40px;
+}
+
+.lista-exames li {
+  padding: 15px 10px;
+  border-bottom: 1px solid #eee;
+}
+
+.resultado-normal {
+  color: green;
+  font-weight: bold;
+}
+
+.resultado-alterado {
+  color: red;
+  font-weight: bold;
+}
+
+.btn-finalizar-agendamento {
+  padding: 10px 25px;
+  background-color: #0077cc;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+}

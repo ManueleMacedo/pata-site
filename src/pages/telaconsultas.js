@@ -21,9 +21,16 @@ function TelaConsultasExames() {
           <h2 className="titulo-consultas">Consultas e exames</h2>
 
           <div className="botoes-exames">
-            <button className="botao-exame">Marcar Exame</button>
-            <button className="botao-exame">Resultado de Exames</button>
-            <button className="botao-exame">Desmarcar Exame</button>
+             <Link to="/tela-exames">
+                <button className="botao-exame">Marcar Exame</button>
+              </Link>
+           <Link to="/resultado-exames">
+              <button className="botao-exame">Resultado de Exames</button>
+            </Link>
+            <Link to="/desmarcar-exame">
+              <button className="botao-exame">Desmarcar Exame</button>
+            </Link>
+
           </div>
 
           <div className="botoes-consultas">

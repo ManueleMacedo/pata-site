@@ -10,6 +10,9 @@ import TelaCadastro from "./pages/telacadastro";
 import TelaConsultasExames from "./pages/telaconsultas";
 import TelaEmergencia from "./pages/telaemergencia";
 import TelaEducaPet from "./pages/telaeducapet";
+import TelaExames from "./pages/telaexames";
+import TelaResultadosExames from "./pages/telaresultados";
+
 
 
 function App() {
@@ -24,6 +27,12 @@ function App() {
         <Route path="/tela-consulta" element={<TelaConsultasExames />} />
         <Route path="/tela-emergencia" element={<TelaEmergencia />} />
         <Route path="/tela-educa-pet" element={<TelaEducaPet />} />
+        <Route path="/tela-exames" element={<TelaExames />} />
+        <Route path="/resultado-exames" element={<TelaResultadosExames />} />
+
+
+        
+
       </Routes>
     </Router>
   );
