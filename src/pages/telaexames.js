@@ -1,5 +1,5 @@
-import React, { useState } from "react"; 
-import { Link } from "react-router-dom";
+import React, { useState } from "react";
+import { Link, useNavigate } from "react-router-dom";
 
 const gerarHorarios = (inicio, fim) => {
   const horarios = [];
@@ -20,6 +20,7 @@ const gerarHorarios = (inicio, fim) => {
 };
 
 export default function TelaAgendamentoExames() {
+  const navigate = useNavigate();
   const [horarioSelecionado, setHorarioSelecionado] = useState(null);
   const [mostrarMaisHorarios, setMostrarMaisHorarios] = useState(false);
 
@@ -37,7 +38,7 @@ export default function TelaAgendamentoExames() {
       return;
     }
     if (horarioSelecionado) {
-      alert(`Agendamento de exame finalizado para ${horarioSelecionado}`);
+      navigate("/telafinalizacao");
     } else {
       alert("Por favor, selecione um horário antes de finalizar.");
     }
@@ -62,7 +63,9 @@ export default function TelaAgendamentoExames() {
         </div>
 
         <div className="lado-direito-agendamento">
-          <h4 className="agendamento-subtitulo">Selecione o horário desejado:</h4>
+          <h4 className="agendamento-subtitulo">
+            Selecione o horário desejado:
+          </h4>
 
           <div className="data-horarios-agendamento">
             <strong>07/04 Segunda</strong>
@@ -113,7 +116,9 @@ export default function TelaAgendamentoExames() {
                   <button
                     key={`extra-${i}`}
                     className={`horario-agendamento ${
-                      horarioSelecionado === `09/04 ${hora}` ? "selecionado" : ""
+                      horarioSelecionado === `09/04 ${hora}`
+                        ? "selecionado"
+                        : ""
                     }`}
                     onClick={() => handleSelecionarHorario("09/04", hora)}
                   >
@@ -125,7 +130,10 @@ export default function TelaAgendamentoExames() {
           </div>
 
           <div className="botoes-agendamento-container">
-            <button className="btn-finalizar-agendamento" onClick={finalizarAgendamento}>
+            <button
+              className="btn-finalizar-agendamento"
+              onClick={finalizarAgendamento}
+            >
               Finalizar
             </button>
             <button className="btn-finalizar-agendamento">

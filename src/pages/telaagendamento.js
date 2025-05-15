@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 const gerarHorarios = (inicio, fim) => {
   const horarios = [];
@@ -20,6 +20,7 @@ const gerarHorarios = (inicio, fim) => {
 };
 
 export default function TelaAgendamento() {
+  const navigate = useNavigate();
   const [horarioSelecionado, setHorarioSelecionado] = useState(null);
   const [mostrarMaisHorarios, setMostrarMaisHorarios] = useState(false);
 
@@ -37,7 +38,7 @@ export default function TelaAgendamento() {
       return;
     }
     if (horarioSelecionado) {
-      alert(`Agendamento finalizado para ${horarioSelecionado}`);
+      navigate("/telafinalizacao");
     } else {
       alert("Por favor, selecione um horário antes de finalizar.");
     }
@@ -47,16 +48,16 @@ export default function TelaAgendamento() {
     <div className="tela-agendamento-sem-caixa">
       <div className="container-agendamento">
         <div className="lado-esquerdo-agendamento">
-          <img 
-            src={`${process.env.PUBLIC_URL}/imagens/logo-pref.png`} 
-            alt="Logo" 
-            className="logo-agendamento" 
+          <img
+            src={`${process.env.PUBLIC_URL}/imagens/logo-pref.png`}
+            alt="Logo"
+            className="logo-agendamento"
           />
           <div className="perfil-medico-agendamento">
-            <img 
-              src={`${process.env.PUBLIC_URL}/imagens/dr.avif`} 
-              alt="Médica" 
-              className="foto-medico-agendamento" 
+            <img
+              src={`${process.env.PUBLIC_URL}/imagens/dr.avif`}
+              alt="Médica"
+              className="foto-medico-agendamento"
             />
             <h3 className="agendamento-titulo">Dra. Carla Andrade</h3>
             <p className="agendamento-subtitulo">
@@ -66,7 +67,9 @@ export default function TelaAgendamento() {
         </div>
 
         <div className="lado-direito-agendamento">
-          <h4 className="agendamento-subtitulo">Selecione o horário desejado:</h4>
+          <h4 className="agendamento-subtitulo">
+            Selecione o horário desejado:
+          </h4>
 
           <div className="data-horarios-agendamento">
             <strong>07/04 Segunda</strong>
@@ -74,8 +77,9 @@ export default function TelaAgendamento() {
               {horariosSegunda.map((hora, i) => (
                 <button
                   key={i}
-                  className={`horario-agendamento ${horarioSelecionado === `07/04 ${hora}` ? "selecionado" : ""
-                    }`}
+                  className={`horario-agendamento ${
+                    horarioSelecionado === `07/04 ${hora}` ? "selecionado" : ""
+                  }`}
                   onClick={() => handleSelecionarHorario("07/04", hora)}
                 >
                   {hora}
@@ -95,8 +99,9 @@ export default function TelaAgendamento() {
               {horariosQuarta.map((hora, i) => (
                 <button
                   key={i}
-                  className={`horario-agendamento ${horarioSelecionado === `09/04 ${hora}` ? "selecionado" : ""
-                    }`}
+                  className={`horario-agendamento ${
+                    horarioSelecionado === `09/04 ${hora}` ? "selecionado" : ""
+                  }`}
                   onClick={() => handleSelecionarHorario("09/04", hora)}
                 >
                   {hora}
@@ -104,15 +109,21 @@ export default function TelaAgendamento() {
               ))}
 
               {!mostrarMaisHorarios ? (
-                <button className="mais-horarios-agendamento" onClick={() => setMostrarMaisHorarios(true)}>
+                <button
+                  className="mais-horarios-agendamento"
+                  onClick={() => setMostrarMaisHorarios(true)}
+                >
                   Mostrar mais horários
                 </button>
               ) : (
                 horariosExtras.map((hora, i) => (
                   <button
                     key={`extra-${i}`}
-                    className={`horario-agendamento ${horarioSelecionado === `09/04 ${hora}` ? "selecionado" : ""
-                      }`}
+                    className={`horario-agendamento ${
+                      horarioSelecionado === `09/04 ${hora}`
+                        ? "selecionado"
+                        : ""
+                    }`}
                     onClick={() => handleSelecionarHorario("09/04", hora)}
                   >
                     {hora}
@@ -123,11 +134,16 @@ export default function TelaAgendamento() {
           </div>
 
           <div className="botoes-agendamento-container">
-            <button className="btn-finalizar-agendamento" onClick={finalizarAgendamento}>
+            <button
+              className="btn-finalizar-agendamento"
+              onClick={finalizarAgendamento}
+            >
               Finalizar
             </button>
             <button className="btn-finalizar-agendamento">
-              <Link to="/tela-consulta" className="link-botao-voltar">Voltar</Link>
+              <Link to="/tela-consulta" className="link-botao-voltar">
+                Voltar
+              </Link>
             </button>
           </div>
         </div>
