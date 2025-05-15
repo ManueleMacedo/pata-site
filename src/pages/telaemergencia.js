@@ -143,9 +143,13 @@ function TelaEmergencia() {
 
       <footer className="footer">
         <nav>
-          <a href="#">Início</a> |<a href="#">Agendamento</a> |<a href="#">Emergência</a> |
-          <a href="#">Veterinários</a> |<a href="#">Transparência</a> |
-          <a href="#">EducaPet</a> |<a href="#">Contato</a>
+          <a href="#">Início</a> |
+          <a href="/tela-consulta">Agendamento</a> |
+          <a href="#">Emergência</a> |
+          <a href="#">Veterinários</a> |
+          <a href="#">Transparência</a> |
+          <a href="/tela-educa-pet">EducaPet</a> |
+          <a href="#">Contato</a>
         </nav>
       </footer>
     </div>
