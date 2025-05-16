@@ -28,7 +28,7 @@ function TelaInicial() {
           <a href="#">Veterinários</a> |
           <a href="#">Transparência</a> |
           <a href="/tela-educa-pet">EducaPet</a> |
-          <a href="#">Contato</a>
+          <a href="/tela-contato">Contato</a>
         </nav>
       </footer>
     </div>

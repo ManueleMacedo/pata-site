@@ -5,10 +5,10 @@ function TelaConsultasExames() {
   return (
     <div className="App">
       <header className="header">
-        <img 
-          src={`${process.env.PUBLIC_URL}/imagens/logo-pref.png`} 
-          alt="Logo" 
-          className="logo" 
+        <img
+          src={`${process.env.PUBLIC_URL}/imagens/logo-pref.png`}
+          alt="Logo"
+          className="logo"
         />
         <input type="text" placeholder="Pesquise aqui!" className="search" />
         <Link to="/">
@@ -21,10 +21,10 @@ function TelaConsultasExames() {
           <h2 className="titulo-consultas">Consultas e exames</h2>
 
           <div className="botoes-exames">
-             <Link to="/tela-exames">
-                <button className="botao-exame">Marcar Exame</button>
-              </Link>
-           <Link to="/resultado-exames">
+            <Link to="/tela-exames">
+              <button className="botao-exame">Marcar Exame</button>
+            </Link>
+            <Link to="/resultado-exames">
               <button className="botao-exame">Resultado de Exames</button>
             </Link>
             <Link to="/desmarcar-exames">
@@ -38,15 +38,15 @@ function TelaConsultasExames() {
               <button className="botao-consulta">Marcar consulta</button>
             </Link>
             <Link to="/desmarcar-consultas">
-            <button className="botao-consulta">Desmarcar Consulta</button>
+              <button className="botao-consulta">Desmarcar Consulta</button>
             </Link>
           </div>
         </div>
         <div className="imagem-animais">
-          <img 
-            src={`${process.env.PUBLIC_URL}/imagens/imagem-animais.png`} 
-            alt="Animais" 
-            className="img-animais" 
+          <img
+            src={`${process.env.PUBLIC_URL}/imagens/imagem-animais.png`}
+            alt="Animais"
+            className="img-animais"
           />
         </div>
       </main>
@@ -59,7 +59,7 @@ function TelaConsultasExames() {
           <a href="#">Veterinários</a> |
           <a href="#">Transparência</a> |
           <a href="#">EducaPet</a> |
-          <a href="#">Contato</a>
+          <a href="/tela-contato">Contato</a>
         </nav>
       </footer>
     </div>

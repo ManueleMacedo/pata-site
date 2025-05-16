@@ -8,7 +8,7 @@ export default function TelaDesmarcarConsultas() {
     { id: 1, data: "07/04", horario: "09:00", nome: "Consulta com Dr. Silva" },
     { id: 2, data: "09/04", horario: "14:30", nome: "Consulta com Dra. Souza" },
     { id: 3, data: "10/04", horario: "08:00", nome: "Consulta com Dr. Almeida" },
-    
+
   ]);
 
   const desmarcarConsulta = (id) => {

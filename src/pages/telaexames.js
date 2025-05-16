@@ -73,9 +73,8 @@ export default function TelaAgendamentoExames() {
               {horariosSegunda.map((hora, i) => (
                 <button
                   key={i}
-                  className={`horario-agendamento ${
-                    horarioSelecionado === `07/04 ${hora}` ? "selecionado" : ""
-                  }`}
+                  className={`horario-agendamento ${horarioSelecionado === `07/04 ${hora}` ? "selecionado" : ""
+                    }`}
                   onClick={() => handleSelecionarHorario("07/04", hora)}
                 >
                   {hora}
@@ -95,9 +94,8 @@ export default function TelaAgendamentoExames() {
               {horariosQuarta.map((hora, i) => (
                 <button
                   key={i}
-                  className={`horario-agendamento ${
-                    horarioSelecionado === `09/04 ${hora}` ? "selecionado" : ""
-                  }`}
+                  className={`horario-agendamento ${horarioSelecionado === `09/04 ${hora}` ? "selecionado" : ""
+                    }`}
                   onClick={() => handleSelecionarHorario("09/04", hora)}
                 >
                   {hora}
@@ -115,11 +113,10 @@ export default function TelaAgendamentoExames() {
                 horariosExtras.map((hora, i) => (
                   <button
                     key={`extra-${i}`}
-                    className={`horario-agendamento ${
-                      horarioSelecionado === `09/04 ${hora}`
+                    className={`horario-agendamento ${horarioSelecionado === `09/04 ${hora}`
                         ? "selecionado"
                         : ""
-                    }`}
+                      }`}
                     onClick={() => handleSelecionarHorario("09/04", hora)}
                   >
                     {hora}

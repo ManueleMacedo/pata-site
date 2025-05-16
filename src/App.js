@@ -15,12 +15,7 @@ import TelaResultadosExames from "./pages/telaresultados";
 import Telafinalizacao from "./pages/telafinalizacao";
 import TelaDesmarcarExames from "./pages/teladesmarcarex";
 import TelaDesmarcarConsultas from "./pages/teladesmarcarcon";
-
-
-
-
-
-
+import TelaContato from "./pages/telacontato";
 
 
 function App() {
@@ -37,18 +32,13 @@ function App() {
         <Route path="/tela-educa-pet" element={<TelaEducaPet />} />
         <Route path="/tela-exames" element={<TelaExames />} />
         <Route path="/resultado-exames" element={<TelaResultadosExames />} />
-       <Route path="/telafinalizacao" element={<Telafinalizacao />} />
-       <Route path="/desmarcar-exames" element={<TelaDesmarcarExames />} />
-       <Route path="/desmarcar-consultas" element={<TelaDesmarcarConsultas />} />
-
-
-
-
-        
-
+        <Route path="/telafinalizacao" element={<Telafinalizacao />} />
+        <Route path="/desmarcar-exames" element={<TelaDesmarcarExames />} />
+        <Route path="/desmarcar-consultas" element={<TelaDesmarcarConsultas />} />
+        <Route path="/tela-contato" element={<TelaContato />} />
       </Routes>
     </Router>
-  );
+  );
 }
 
 export default App;

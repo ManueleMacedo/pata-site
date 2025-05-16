@@ -103,9 +103,8 @@ function TelaEmergencia() {
                 {[1, 2, 3].map((nivel) => (
                   <button
                     key={nivel}
-                    className={`nivel-btn ${
-                      nivelEmergencia === nivel ? "selecionado" : ""
-                    }`}
+                    className={`nivel-btn ${nivelEmergencia === nivel ? "selecionado" : ""
+                      }`}
                     onClick={() => handleNivelChange(nivel)}
                   >
                     {nivel}

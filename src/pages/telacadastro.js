@@ -6,10 +6,10 @@ function TelaCadastro() {
     <div className="tela-cadastro">
       <div className="registro-container">
         <div className="cadastro-box">
-          <img 
-            src={`${process.env.PUBLIC_URL}/imagens/logo-pref.png`} 
-            alt="Prefeitura do Recife" 
-            className="logo-cadastro" 
+          <img
+            src={`${process.env.PUBLIC_URL}/imagens/logo-pref.png`}
+            alt="Prefeitura do Recife"
+            className="logo-cadastro"
           />
 
           <div className="formularios">

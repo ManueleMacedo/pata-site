@@ -6,16 +6,16 @@ function TelaLogin() {
     <div className="tela-login">
 
       <div className="login-container">
-      
+
         <Link to="/" className="voltar-link">
           ← Voltar para Início
         </Link>
 
         <div className="login-box">
-          <img 
-            src={`${process.env.PUBLIC_URL}/imagens/logo-pref.png`} 
-            alt="Prefeitura do Recife" 
-            className="logo-login" 
+          <img
+            src={`${process.env.PUBLIC_URL}/imagens/logo-pref.png`}
+            alt="Prefeitura do Recife"
+            className="logo-login"
           />
           <h2>
             Faça login em sua conta ou <Link to="/cadastro">cadastre-se</Link>
@@ -24,7 +24,7 @@ function TelaLogin() {
           <input type="password" placeholder="Senha" />
           <Link to="/tela-consulta">
             <button className="agendar-button">Entrar</button>
-          </Link> 
+          </Link>
           <div className="forgot-password">
             <Link to="/esqueci-senha">Esqueceu a senha?</Link>
           </div>

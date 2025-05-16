@@ -81,7 +81,7 @@ function EducaPet() {
         </section>
       </div>
     </div>
-    
+
   );
 }
 
