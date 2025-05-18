@@ -4,6 +4,20 @@ import { Link } from "react-router-dom";
 function EducaPet() {
   return (
     <div className="educa-background">
+      {/* Header com logo, busca e botão voltar */}
+      <header className="header-veterinarios">
+        <img
+          src={`${process.env.PUBLIC_URL}/imagens/logo-pref.png`}
+          alt="Logo"
+          className="logo"
+        />
+        <input type="text" placeholder="Pesquise aqui!" className="search" />
+        <Link to="/">
+          <button className="voltar-button">Voltar</button>
+        </Link>
+      </header>
+
+      {/* Conteúdo principal */}
       <div className="educa-container">
         <h1>EducaPet 🐾</h1>
 
@@ -80,8 +94,20 @@ function EducaPet() {
           </ul>
         </section>
       </div>
-    </div>
 
+      {/* Footer padrão */}
+      <footer className="footer-veterinarios">
+        <nav>
+          <a href="/">Início</a> |
+          <a href="/agendamento-consulta">Agendamento</a> |
+          <a href="/tela-emergencia">Emergência</a> |
+          <a href="/tela-veterinarios">Veterinários</a> |
+          <a href="#">Transparência</a> |
+          <a href="/tela-educa-pet">EducaPet</a> |
+          <a href="/tela-contato">Contato</a>
+        </nav>
+      </footer>
+    </div>
   );
 }
 
