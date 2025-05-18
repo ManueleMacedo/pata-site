@@ -16,6 +16,7 @@ import Telafinalizacao from "./pages/telafinalizacao";
 import TelaDesmarcarExames from "./pages/teladesmarcarex";
 import TelaDesmarcarConsultas from "./pages/teladesmarcarcon";
 import TelaContato from "./pages/telacontato";
+import TelaVeterinarios from "./pages/telaveterinarios";
 
 
 function App() {
@@ -36,6 +37,7 @@ function App() {
         <Route path="/desmarcar-exames" element={<TelaDesmarcarExames />} />
         <Route path="/desmarcar-consultas" element={<TelaDesmarcarConsultas />} />
         <Route path="/tela-contato" element={<TelaContato />} />
+        <Route path="/tela-veterinarios" element={<TelaVeterinarios />} />
       </Routes>
     </Router>
   );

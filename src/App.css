@@ -986,3 +986,155 @@ body,
     gap: 25px;
   }
 }
+
+/* --- Tela de Veterinários (Cores ajustadas: #2C7DA0 e branco) --- */
+
+.tela-veterinarios {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #ffffff;
+  color: #2C7DA0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.header-veterinarios {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #2C7DA0;
+  padding: 16px 24px;
+  color: white;
+}
+
+.header-veterinarios .logo {
+  height: 50px;
+}
+
+.search {
+  flex-grow: 1;
+  max-width: 400px;
+  margin: 0 20px;
+  padding: 10px 14px;
+  border-radius: 8px;
+  border: none;
+  font-size: 1rem;
+}
+
+.voltar-button {
+  padding: 10px 18px;
+  background-color: #1e5c77;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.voltar-button:hover {
+  background-color: #16495e;
+}
+
+.main-veterinarios {
+  flex-grow: 1;
+  padding: 40px 20px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.main-veterinarios h1 {
+  font-size: 2rem;
+  color: #2C7DA0;
+  margin-bottom: 12px;
+}
+
+.main-veterinarios p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.beneficios-veterinarios {
+  background-color: #e0f0f7;
+  border-left: 6px solid #2C7DA0;
+  padding: 16px 20px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+}
+
+.beneficios-veterinarios h3 {
+  margin-top: 0;
+  margin-bottom: 10px;
+  color: #2C7DA0;
+}
+
+.beneficios-veterinarios ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.beneficios-veterinarios li {
+  font-size: 1rem;
+  margin: 6px 0;
+}
+
+.formulario-veterinarios {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  background-color: #ffffff;
+  padding: 24px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+}
+
+.formulario-veterinarios label {
+  font-weight: 600;
+  color: #2C7DA0;
+}
+
+.formulario-veterinarios input,
+.formulario-veterinarios textarea {
+  padding: 10px;
+  border: 1px solid #bbb;
+  border-radius: 8px;
+  font-size: 1rem;
+  resize: vertical;
+}
+
+.enviar-button {
+  padding: 12px 24px;
+  background-color: #2C7DA0;
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.enviar-button:hover {
+  background-color: #1e5c77;
+}
+
+.footer-veterinarios {
+  background-color: #2C7DA0;
+  color: white;
+  padding: 14px 0;
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+.footer-veterinarios nav a {
+  color: #ffffff;
+  margin: 0 8px;
+  text-decoration: none;
+  transition: text-decoration 0.3s;
+}
+
+.footer-veterinarios nav a:hover {
+  text-decoration: underline;
+}
