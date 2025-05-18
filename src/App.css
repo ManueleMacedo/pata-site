@@ -1034,11 +1034,6 @@ body,
   cursor: pointer;
 }
 
-.voltar-button:hover {
-  background-color: white;
-  color: #2C7DA0;
-}
-
 .main-veterinarios {
   flex-grow: 1;
   padding: 40px 20px;
