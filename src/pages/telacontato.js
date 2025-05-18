@@ -44,12 +44,12 @@ export default function ContactScreen() {
             <footer className="footer">
                 <nav>
                     <a href="#">Início</a> |
-                    <a href="#">Agendamento</a> |
-                    <a href="#">Emergência</a> |
-                    <a href="#">Veterinários</a> |
+                    <a href="/tela-agendamento">Agendamento</a> |
+                    <a href="/tela-emergencia">Emergência</a> |
+                    <a href="/tela-veterinarios">Veterinários</a> |
                     <a href="#">Transparência</a> |
-                    <a href="#">EducaPet</a> |
-                    <a href="#">Contato</a>
+                    <a href="/tela-educa-pet">EducaPet</a> |
+                    <a href="/tela-contato">Contato</a>
                 </nav>
             </footer>
         </div>
