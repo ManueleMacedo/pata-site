@@ -54,7 +54,7 @@ function TelaConsultasExames() {
       <footer className="footer">
         <nav>
           <a href="/">Início</a> |
-          <a href="/agendamento-consulta">Agendamento</a> |
+          <a href="/login">Agendamento</a> |
           <a href="/tela-emergencia">Emergência</a> |
           <a href="/tela-veterinarios">Veterinários</a> |
           <a href="#">Transparência</a> |

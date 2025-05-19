@@ -108,7 +108,7 @@ function TelaVeterinarios() {
       <footer className="footer-veterinarios">
         <nav>
           <a href="/">Início</a> |
-          <a href="/tela-agendamento">Agendamento</a> |
+          <a href="/login">Agendamento</a> |
           <a href="/tela-emergencia">Emergência</a> |
           <a href="/tela-veterinarios">Veterinários</a> |
           <a href="#">Transparência</a> |
