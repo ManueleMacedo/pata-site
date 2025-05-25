@@ -4,16 +4,18 @@ import { Link } from "react-router-dom";
 function TelaEmergencia() {
   const [nivelEmergencia, setNivelEmergencia] = useState(null);
   const [confirmado, setConfirmado] = useState(false);
+  const [cpf, setCpf] = useState("");
+  const [contato, setContato] = useState("");
 
   const handleNivelChange = (nivel) => {
     setNivelEmergencia(nivel);
   };
 
   const handleSubmit = () => {
-    if (nivelEmergencia) {
+    if (nivelEmergencia && cpf.trim() !== "" && contato.trim() !== "") {
       setConfirmado(true);
     } else {
-      alert("Por favor, selecione o nível de emergência");
+      alert("Por favor, selecione o nível de emergência, preencha o CPF e o contato.");
     }
   };
 
@@ -103,14 +105,42 @@ function TelaEmergencia() {
                 {[1, 2, 3].map((nivel) => (
                   <button
                     key={nivel}
-                    className={`nivel-btn ${nivelEmergencia === nivel ? "selecionado" : ""
-                      }`}
+                    className={`nivel-btn ${nivelEmergencia === nivel ? "selecionado" : ""}`}
                     onClick={() => handleNivelChange(nivel)}
                   >
                     {nivel}
                   </button>
                 ))}
               </div>
+
+              <div className="campo-cpf-contato" style={{ display: "flex", gap: "10px", marginTop: "10px" }}>
+                <div className="campo-cpf">
+                  <label htmlFor="cpf">CPF do responsável:</label>
+                  <input
+                    type="text"
+                    id="cpf"
+                    name="cpf"
+                    placeholder="Digite o CPF"
+                    className="input-cpf"
+                    value={cpf}
+                    onChange={(e) => setCpf(e.target.value)}
+                  />
+                </div>
+
+                <div className="campo-contato">
+                  <label htmlFor="contato">E-mail ou Telefone:</label>
+                  <input
+                    type="text"
+                    id="contato"
+                    name="contato"
+                    placeholder="Digite e-mail ou telefone"
+                    className="input-contato"
+                    value={contato}
+                    onChange={(e) => setContato(e.target.value)}
+                  />
+                </div>
+              </div>
+
               <button className="btn-enviar" onClick={handleSubmit}>
                 Enviar
               </button>
