@@ -1,7 +1,16 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 function TelaCadastro() {
+  const navigate = useNavigate();
+
+  const handleCadastro = () => {
+    // Simula cadastro feito com sucesso
+    navigate("/login", {
+      state: { mensagem: "Cadastro realizado com sucesso! Faça login para continuar." }
+    });
+  };
+
   return (
     <div className="tela-cadastro">
       <div className="registro-container">
@@ -32,7 +41,10 @@ function TelaCadastro() {
             </div>
           </div>
 
-          <button className="botao-cadastrar">Cadastrar</button>
+          <button className="botao-cadastrar" onClick={handleCadastro}>
+            Cadastrar
+          </button>
+
           <div className="link-voltar-login">
             <Link to="/login">Voltar</Link>
           </div>
