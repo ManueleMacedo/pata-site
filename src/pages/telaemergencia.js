@@ -177,7 +177,8 @@ function TelaEmergencia() {
           <a href="/tela-emergencia">Emergência</a> |
           <a href="/tela-veterinarios">Veterinários</a> |
           <a href="/tela-educa-pet">EducaPet</a> |
-          <a href="/tela-contato">Contato</a>
+          <a href="/tela-contato">Contato</a> |
+          <a href="/tela-avaliacao">Avaliação</a>
         </nav>
       </footer>
     </div>
