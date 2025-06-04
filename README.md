@@ -87,7 +87,7 @@ O seguinte diagrama ilustra o fluxo das principais ações do usuário:
 Estamos utilizando o sistema de *Issues* do GitHub para controle de bugs e tarefas.  
 Abaixo, segue um print das issues já resolvidas:
 
-![image](https://github.com/user-attachments/assets/f959afa7-b96a-4166-b293-e6f61bc11561)
+![image](https://github.com/user-attachments/assets/046a6df8-38f5-4bce-bbc9-6388422394b3)
 
 ## 👨‍💻 Desenvolvedores do Projeto:
 
@@ -116,19 +116,20 @@ Desenvolvido por:
 
 ### 📌 Trello:
 
-![image](https://github.com/user-attachments/assets/9647fa35-db09-4023-8dbe-acbcaff61569)
+![image](https://github.com/user-attachments/assets/882f67c6-4444-4c4a-b2f1-fa1d20b3f41b)
+
+---
+
+## 🎥 Screencast do Site:
+
+Gravamos um screencast demonstrando as principais funcionalidades do sistema.  
+
+https://drive.google.com/file/d/17d0S24_uJn-0P4wte51Ew1279GrPuVFo/view?usp=sharing
 
 ---
 
 ## 🎥 Screencast do Protótipo:
 
-Gravamos um screencast demonstrando as principais funcionalidades do sistema.  
-Abaixo, listamos a minutagem correspondente a cada história de usuário:
-
-- **HU1 - Cadastro de usuário** → `00:25`
-- **HU3 - Agendamento de consulta** → `01:22`
-- **HU4 - Recuperação de senha** → `01:09`
-- **HU9 - Avaliação** `03:31`
 
 https://github.com/user-attachments/assets/4a06bb6e-ce23-4642-8de0-d449d629dd85
 
