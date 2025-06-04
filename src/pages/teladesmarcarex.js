@@ -16,7 +16,7 @@ export default function TelaDesmarcarExames() {
   };
 
   const finalizarAgendamento = () => {
-    alert("Agendamento finalizado!");
+    alert("Exame desmarcado!");
     navigate("/tela-consulta");
   };
 

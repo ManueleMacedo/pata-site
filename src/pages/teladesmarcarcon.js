@@ -17,7 +17,7 @@ export default function TelaDesmarcarConsultas() {
   };
 
   const finalizarAgendamento = () => {
-    alert("Agendamento finalizado!");
+    alert("Consulta desmarcada!");
     navigate("/tela-consulta");
   };
 
