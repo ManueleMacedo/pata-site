@@ -5,7 +5,7 @@ O Hospital Veterinário do Recife (HVR) enfrenta críticas devido aos longos tem
 O Projeto Pata oferece um portal prático para facilitar o agendamento e cancelamento de consultas, exames e emergências. Além disso, conta com acompanhamento médico e parcerias com pet shops para doações em troca de indicações, tornando o atendimento mais acessível e eficiente.
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/8325a78c-cc77-44a0-9a1b-c305567a3715"
+  <img src="https://github.com/user-attachments/assets/e0856776-b743-405f-8dd1-42c766a45506"
  width="600" />
 </p>
 
