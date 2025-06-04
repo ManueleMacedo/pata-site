@@ -124,7 +124,27 @@ Desenvolvido por:
 
 Gravamos um screencast demonstrando as principais funcionalidades do sistema.  
 
-https://drive.google.com/file/d/17d0S24_uJn-0P4wte51Ew1279GrPuVFo/view?usp=sharing
+https://github.com/user-attachments/assets/2a58dc91-2df2-42ea-a875-f35ae2fe6619
+
+## 🎥 Minutagem do Screencast
+
+- **00:00** – Tela inicial  
+- **00:38** – Tela de login  
+- **00:52** – Tela de recuperação de senha  
+- **01:03** – Tela de cadastro  
+- **01:35** – Tela de consulta e exames  
+- **01:40** – Marcar exame  
+- **01:53** – Tela de confirmação de agendamento  
+- **01:59** – Resultados exames  
+- **02:06** – Desmarcar exames  
+- **02:21** – Marcar consulta  
+- **02:36** – Desmarcar consulta  
+- **02:57** – Tela emergência  
+- **04:36** – Tela de registro de emergência  
+- **04:49** – Tela de veterinários  
+- **05:12** – Tela EducaPet  
+- **05:38** – Tela de contatos  
+- **05:48** – Tela de avaliação  
 
 ---
 
